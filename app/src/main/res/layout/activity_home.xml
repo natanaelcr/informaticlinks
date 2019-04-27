@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/about">
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnlogout" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="5dp"
+            android:text="Selamat Datang, "
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="25dp"
+            android:text="String Nama"
+            android:textAlignment="textEnd"
+            android:textColor="@color/TextAtas"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="46dp"
+            android:text="String NIM"
+            android:textAlignment="textEnd"
+            android:textColor="@color/TextAtas"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/user" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_home"/>
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_about"/>
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_profile"/>
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_marginTop="650dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_jadwal"/>
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_presensi"/>
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_dosen"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="570dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_ukt"/>
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_krs"/>
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_khs"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
