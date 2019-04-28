@@ -12,4 +12,27 @@
         android:layout_marginTop="85dp"
         android:background="@drawable/logo"
         android:layout_marginStart="30dp"/>
+    <EditText
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginStart="100dp"
+        android:background="@drawable/input_ortu"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:layout_marginTop="525dp"
+        android:layout_marginStart="100dp"
+        android:inputType="numberPassword"
+        android:background="@drawable/input_password"/>
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="165dp"
+        android:background="@drawable/btn_login"/>
+
 </RelativeLayout>
