@@ -43,7 +43,7 @@
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="17090286382"
+            android:text="NIP 198410272015042001"
             android:textColor="@color/TextAtas"
             android:textAlignment="center"
             android:textSize="25sp"/>
