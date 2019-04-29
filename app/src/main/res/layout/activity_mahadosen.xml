@@ -4,25 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profileActivity">
-
+    tools:context=".mahadosen">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_alignParentTop="true"
-        android:background="@drawable/profil">
+        android:background="@drawable/dosentab">
         <ImageButton
             android:layout_width="125dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/btnlogout" />
+            android:background="@drawable/btnkembali" />
     </RelativeLayout>
     <ImageView
         android:layout_marginTop="90dp"
         android:layout_marginStart="170dp"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:background="@drawable/userpropel"/>
+        android:background="@drawable/mahadosen2"/>
 
     <RelativeLayout
         android:layout_width="390dp"
@@ -35,16 +34,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:text="Husein kasbor"
+            android:text="Ir. Dr.Bambank botol mp4"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
             android:textColor="@color/TextAtas"
             android:textAlignment="center"
-            android:textSize="35sp"/>
+            android:textSize="25sp"/>
         <TextView
             android:layout_marginTop="40dp"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="17090286382"
+            android:text="NIP 198410272015042001"
             android:textColor="@color/TextAtas"
             android:textAlignment="center"
             android:textSize="25sp"/>
@@ -109,7 +108,6 @@
             android:text="Mahadosen085"
             android:textColor="@color/TextAtas"
             android:textSize="15sp"/>
-
     </RelativeLayout>
 
     <LinearLayout
