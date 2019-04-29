@@ -62,7 +62,51 @@
             android:layout_marginTop="120dp"
             android:layout_width="match_parent"
             android:layout_height="25dp"
-            android:text="17090286382"
+            android:layout_marginStart="10dp"
+            android:text="Nama Orang Tua : "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="145dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Mamang kasbor"
+            android:textColor="@color/TextAtas"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_marginTop="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Nomor Telepon : "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="185dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="0856082525252"
+            android:textColor="@color/TextAtas"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_marginTop="210dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Password : "
+            android:textStyle="bold"
+            android:textColor="@color/TextAtas"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_marginTop="235dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:text="Mahadosen085"
             android:textColor="@color/TextAtas"
             android:textSize="15sp"/>
 
