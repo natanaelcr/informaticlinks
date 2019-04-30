@@ -9,11 +9,6 @@
         android:layout_height="70dp"
         android:layout_alignParentTop="true"
         android:background="@drawable/taboke">
-        <ImageButton
-            android:layout_width="125dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/btnlogout" />
 
         <TextView
             android:layout_width="150dp"
