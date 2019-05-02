@@ -18,7 +18,7 @@
         android:layout_width="235dp"
         android:layout_height="35dp"
         android:hint="Password"
-        android:paddingLeft="30dp"
+        android:paddingStart="30dp"
         android:ems="10"
         android:layout_marginTop="525dp"
         android:layout_marginStart="100dp"
@@ -35,12 +35,12 @@
         android:id="@+id/editText2"
         android:layout_width="235dp"
         android:layout_height="35dp"
-        android:ems="10"
-        android:layout_marginTop="475dp"
         android:layout_marginStart="100dp"
-        android:inputType="textPersonName"
+        android:layout_marginTop="475dp"
+        android:background="@drawable/input_ortu"
+        android:ems="10"
         android:hint="Username"
-        android:paddingLeft="30dp"
-        android:background="@drawable/input_ortu"/>
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp" />
 
 </RelativeLayout>

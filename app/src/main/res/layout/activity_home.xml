@@ -2,104 +2,185 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hatibersih"
     android:layout_height="match_parent"
     tools:context=".home">
+
     <RelativeLayout
+        android:id="@+id/ngatas"
+        android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_alignParentTop="true"
         android:background="@drawable/taboke">
 
-        <TextView
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="185dp"
-            android:layout_marginTop="5dp"
-            android:text="Selamat Datang, "
-            android:textColor="@color/TextAtas"
-            android:textSize="20sp" />
+        <RelativeLayout
+            android:paddingEnd="10dp"
+            android:layout_toLeftOf="@+id/s"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center|end"
+            tools:visibility="visible">
 
-        <TextView
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="180dp"
-            android:layout_marginTop="25dp"
-            android:text="String Nama"
-            android:textAlignment="textEnd"
-            android:textColor="@color/TextAtas"
-            android:textSize="16sp" />
+            <TextView
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Mamank husein Kopyah"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextAtas"
+                android:textSize="26sp" />
 
-        <TextView
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:layout_marginStart="180dp"
-            android:layout_marginTop="46dp"
-            android:text="String NIM"
-            android:textAlignment="textEnd"
-            android:textColor="@color/TextAtas"
-            android:textSize="13sp" />
+            <TextView
+                android:layout_below="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:text="170505974031"
+                android:textAlignment="textEnd"
+                android:textColor="@color/TextAtas"
+                android:textSize="15sp" />
 
+    </RelativeLayout>
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="340dp"
-            android:layout_marginTop="5dp"
+            android:id="@+id/s"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/user" />
     </RelativeLayout>
-    <LinearLayout
-        android:layout_marginTop="70dp"
+
+    <RelativeLayout
+        android:layout_below="@+id/ngatas"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/taboke"
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="70dp">
+
         <ImageButton
-            android:layout_width="137dp"
-            android:layout_height="80dp"
+            android:id="@+id/home"
+            android:paddingEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_height="70dp"
             android:background="@drawable/btn_home"/>
         <ImageButton
-            android:layout_width="137dp"
-            android:layout_height="80dp"
+
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:id="@+id/about"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
             android:background="@drawable/btn_about"/>
         <ImageButton
-            android:layout_width="137dp"
-            android:layout_height="80dp"
+            android:id="@+id/profile"
+            android:paddingEnd="10dp"
+            android:layout_centerInParent="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_height="70dp"
             android:background="@drawable/btn_profile"/>
-    </LinearLayout>
-    
-    
+    </RelativeLayout>
+
     <LinearLayout
-        android:layout_marginTop="650dp"
+        android:id="@+id/isiok"
         android:layout_width="match_parent"
-        android:layout_height="80dp">
-        <ImageButton
-            android:layout_width="137dp"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_jadwal"/>
-        <ImageButton
-            android:layout_width="137dp"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_presensi"/>
-        <ImageButton
-            android:layout_width="137dp"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_dosen"/>
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
     </LinearLayout>
-    <LinearLayout
-        android:layout_marginTop="570dp"
-        android:layout_width="match_parent"
+
+
+    <RelativeLayout
+        android:layout_above="@+id/bwh_menu"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
         android:layout_height="80dp">
+
         <ImageButton
-            android:layout_width="137dp"
+
+            android:id="@+id/ukt"
+            android:paddingEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
             android:layout_height="80dp"
-            android:background="@drawable/btn_ukt"/>
+            android:background="@drawable/btn_ukt" />
+
         <ImageButton
-            android:layout_width="137dp"
+            android:id="@+id/krs"
+            android:paddingEnd="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
             android:layout_height="80dp"
-            android:background="@drawable/btn_krs"/>
+            android:background="@drawable/btn_krs" />
+
         <ImageButton
-            android:layout_width="137dp"
+            android:id="@+id/khs"
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:layout_width="110dp"
             android:layout_height="80dp"
-            android:background="@drawable/btn_khs"/>
-    </LinearLayout>
+            android:background="@drawable/btn_khs" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwh_menu"
+        android:layout_alignParentBottom="true"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+
+            android:id="@+id/jadwal"
+            android:paddingEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_jadwal" />
+
+        <ImageButton
+            android:id="@+id/presens"
+            android:paddingEnd="10dp"
+            android:layout_centerInParent="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_presensi" />
+
+        <ImageButton
+            android:id="@+id/dsen"
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_dosen" />
+    </RelativeLayout>
 
 
 </RelativeLayout>
