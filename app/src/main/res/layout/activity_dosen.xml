@@ -4,51 +4,107 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/hatibersih"
     tools:context=".dosenActivity">
     <RelativeLayout
+        android:id="@+id/pmaha"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="80dp"
         android:layout_alignParentTop="true"
         android:background="@drawable/profil">
         <ImageButton
             android:layout_width="125dp"
             android:layout_height="60dp"
-            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
             android:background="@drawable/btnlogout" />
     </RelativeLayout>
-    <LinearLayout
-        android:layout_marginTop="650dp"
+
+    <RelativeLayout
         android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/pmaha"
+        >
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_above="@+id/bwh_menu"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
         android:layout_height="80dp">
+
         <ImageButton
-            android:layout_width="137dp"
+
+            android:id="@+id/ukt"
+            android:paddingEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
             android:layout_height="80dp"
-            android:background="@drawable/btn_jadwal"/>
+            android:background="@drawable/btn_ukt" />
+
         <ImageButton
-            android:layout_width="137dp"
+            android:id="@+id/krs"
+            android:paddingEnd="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
             android:layout_height="80dp"
-            android:background="@drawable/btn_presensi"/>
+            android:background="@drawable/btn_krs" />
+
         <ImageButton
-            android:layout_width="137dp"
+            android:id="@+id/khs"
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:layout_width="110dp"
             android:layout_height="80dp"
-            android:background="@drawable/btn_dosen"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_marginTop="570dp"
-        android:layout_width="match_parent"
-        android:layout_height="80dp">
+            android:background="@drawable/btn_khs" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bwh_menu"
+        android:layout_alignParentBottom="true"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
         <ImageButton
-            android:layout_width="137dp"
+
+            android:id="@+id/jadwal"
+            android:paddingEnd="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
             android:layout_height="80dp"
-            android:background="@drawable/btn_ukt"/>
+            android:background="@drawable/btn_jadwal" />
+
         <ImageButton
-            android:layout_width="137dp"
+            android:id="@+id/presens"
+            android:paddingEnd="10dp"
+            android:layout_centerInParent="true"
+            android:layout_width="110dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
             android:layout_height="80dp"
-            android:background="@drawable/btn_krs"/>
+            android:background="@drawable/btn_presensi" />
+
         <ImageButton
-            android:layout_width="137dp"
+            android:id="@+id/dsen"
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:layout_width="110dp"
             android:layout_height="80dp"
-            android:background="@drawable/btn_khs"/>
-    </LinearLayout>
+            android:background="@drawable/btn_dosen" />
+    </RelativeLayout>
+
 
 </RelativeLayout>
