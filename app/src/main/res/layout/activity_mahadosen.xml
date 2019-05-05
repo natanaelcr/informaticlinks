@@ -17,8 +17,10 @@
         android:gravity="right"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
         android:text="Dosen Pengampu"
-        android:textSize="10sp"
+        android:textSize="22sp"
         android:textColor="@color/TextAtas"/>
     <ImageView
         android:id="@+id/raidosen"

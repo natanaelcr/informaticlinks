@@ -9,8 +9,17 @@
     <RelativeLayout
         android:id="@+id/presnsx"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@drawable/presensi">
+        android:layout_height="50dp"
+        android:background="@drawable/tabataszoke">
+        <TextView
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="PRESENSI"
+            android:textSize="22sp"
+            android:textColor="@color/TextAtas"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"

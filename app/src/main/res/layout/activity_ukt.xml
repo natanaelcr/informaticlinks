@@ -7,7 +7,17 @@
     <RelativeLayout
         android:id="@+id/uktlarang"
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="50dp"
+        android:background="@drawable/tabataszoke">
+        <TextView
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="UKT"
+            android:textSize="22sp"
+            android:textColor="@color/TextAtas"/>
     </RelativeLayout>
 
     <RelativeLayout

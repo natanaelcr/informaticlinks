@@ -10,9 +10,18 @@
     <RelativeLayout
         android:id="@+id/pjdwl"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
-        android:background="@drawable/khs">
+        android:background="@drawable/tabataszoke">
+        <TextView
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="KHS"
+            android:textSize="22sp"
+            android:textColor="@color/TextAtas"/>
     </RelativeLayout>
 
     <RelativeLayout
