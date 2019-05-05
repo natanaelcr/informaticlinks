@@ -7,8 +7,7 @@
     <RelativeLayout
         android:id="@+id/uktlarang"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@drawable/ukt">
+        android:layout_height="80dp">
     </RelativeLayout>
 
     <RelativeLayout
