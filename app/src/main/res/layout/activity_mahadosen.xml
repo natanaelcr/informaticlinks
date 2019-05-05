@@ -34,8 +34,8 @@
     <RelativeLayout
         android:layout_below="@+id/raidosen"
         android:layout_above="@+id/bwhbwhmenu"
-        android:layout_width="390dp"
-        android:layout_height="370dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="10dp"
@@ -134,86 +134,6 @@
             android:text="Klik disini untuk Chat Melalui WhatsApp"
             android:textColor="@color/TextAtas"
             android:textSize="20sp"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/bwhbwhmenu"
-        android:layout_above="@+id/bwh_menu"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:layout_marginBottom="10dp"
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp">
-
-        <ImageButton
-
-            android:id="@+id/ukt"
-            android:paddingEnd="10dp"
-            android:layout_alignParentLeft="true"
-            android:layout_width="110dp"
-            android:scaleType="fitXY"
-            android:adjustViewBounds="true"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_ukt" />
-
-        <ImageButton
-            android:id="@+id/krs"
-            android:paddingEnd="10dp"
-            android:layout_centerHorizontal="true"
-            android:layout_width="110dp"
-            android:scaleType="fitXY"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_krs" />
-
-        <ImageButton
-            android:id="@+id/khs"
-            android:layout_alignParentRight="true"
-            android:paddingEnd="10dp"
-            android:layout_width="110dp"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_khs" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/bwh_menu"
-        android:layout_alignParentBottom="true"
-        android:paddingEnd="10dp"
-        android:paddingStart="10dp"
-        android:layout_marginBottom="5dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:orientation="horizontal">
-
-        <ImageButton
-
-            android:id="@+id/jadwal"
-            android:paddingEnd="10dp"
-            android:layout_alignParentLeft="true"
-            android:layout_width="110dp"
-            android:scaleType="fitXY"
-            android:adjustViewBounds="true"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_jadwal" />
-
-        <ImageButton
-            android:id="@+id/presens"
-            android:paddingEnd="10dp"
-            android:layout_centerInParent="true"
-            android:layout_width="110dp"
-            android:scaleType="fitXY"
-            android:adjustViewBounds="true"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_presensi" />
-
-        <ImageButton
-            android:id="@+id/dsen"
-            android:layout_alignParentRight="true"
-            android:paddingEnd="10dp"
-            android:layout_width="110dp"
-            android:layout_height="80dp"
-            android:background="@drawable/btn_dosen" />
     </RelativeLayout>
 
 
