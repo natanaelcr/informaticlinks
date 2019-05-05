@@ -30,6 +30,7 @@
         android:background="@drawable/mahadosen2"/>
 
     <RelativeLayout
+        android:layout_below="@+id/raidosen"
         android:layout_above="@+id/bwhbwhmenu"
         android:layout_width="390dp"
         android:layout_height="370dp"
