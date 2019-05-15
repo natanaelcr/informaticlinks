@@ -117,7 +117,7 @@
             android:layout_height="95dp"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
-            android:text="Mahadosen085"
+            android:text="dosen085"
             android:textColor="@color/TextAtas"
             android:textSize="15sp"/>
         <TextView
