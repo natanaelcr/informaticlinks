@@ -9,11 +9,11 @@
     <ImageView
         android:id="@+id/marshimtimwh"
         android:layout_alignParentTop="true"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
-        android:layout_marginTop="85dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="90dp"
         android:background="@drawable/logo"
-        android:layout_marginStart="30dp"/>
+        android:layout_centerInParent="true"/>
 
     <EditText
         android:id="@+id/user"
@@ -50,6 +50,7 @@
         android:layout_below="@+id/passwrd"/>
 
     <ImageButton
+        android:id="@+id/masuk"
         android:layout_width="125dp"
         android:layout_height="55dp"
         android:layout_below="@+id/laliaku"

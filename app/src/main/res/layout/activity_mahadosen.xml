@@ -44,7 +44,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="45dp"
-            android:text="Ir. Dr.Bambank botol mp4"
+            android:text="Nama Dosen"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
             android:textColor="@color/TextAtas"
             android:textAlignment="center"
@@ -81,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="25dp"
             android:layout_marginStart="10dp"
-            android:text="bambankbtol@unesa.ac.id"
+            android:text="namadosen@unesa.ac.id"
             android:textColor="@color/TextAtas"
             android:textSize="15sp"/>
         <TextView
@@ -131,6 +131,7 @@
             android:backgroundTint="@color/TextAtas"
             android:layout_marginEnd="10dp"
             android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
             android:text="Klik disini untuk Chat Melalui WhatsApp"
             android:textColor="@color/TextAtas"
             android:textSize="20sp"/>

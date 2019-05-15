@@ -28,7 +28,7 @@
                 android:id="@+id/a"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
-                android:text="Mamank husein Kopyah"
+                android:text="Nama Mahasiswa"
                 android:layout_alignParentEnd="true"
                 android:textAlignment="textEnd"
                 android:textColor="@color/TextAtas"

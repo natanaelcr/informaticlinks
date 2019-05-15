@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".mahadosen"></activity>
-        <activity android:name=".loginActivity" />
         <activity android:name=".home" />
         <activity android:name=".aboutActivity" />
         <activity android:name=".khsActivity" />
@@ -19,6 +18,7 @@
         <activity android:name=".activity_ukt" />
         <activity android:name=".presensiActivity" />
         <activity android:name=".jadwalActivity" />
+        <activity android:name=".loginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
